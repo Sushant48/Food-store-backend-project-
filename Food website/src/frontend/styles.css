@@ -1,0 +1,153 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation styles */
+.navbar {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    padding: 20px 0; /* Add padding for spacing */
+  }
+  
+  .container {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items evenly */
+  }
+  
+  .logo {
+    font-size: 1.5rem; /* Larger font size for the logo */
+    color: #fff; /* White color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow for depth */
+  }
+  
+  .nav-menu {
+    list-style: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .nav-menu li {
+    display: inline-block; /* Display nav items horizontally */
+    margin-right: 20px; /* Add right margin for spacing */
+  }
+  
+  .nav-menu li:last-child {
+    margin-right: 0; /* Remove margin from last item */
+  }
+  
+  .nav-menu li a {
+    font-size: 1.2rem; /* Font size for nav links */
+    color: #fff; /* White color */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .nav-menu li a:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+  
+  
+  
+
+/* Hero section styles */
+.hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6b6b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff8787;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Other CSS styles */
+
+.main-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    color: #ffffff;
+    text-align: center;
+}
+.main-section .container{
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+}
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.7); /* Adjust brightness if needed */
+    z-index: -1;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    top: 35%
+}
+
+h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+}
+
+
+

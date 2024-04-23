@@ -1,0 +1,202 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+    padding: 20px 20px; /* Add padding for spacing */
+  }
+  
+  .container-nav {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space items evenly */
+  }
+  
+  .logo {
+    font-size: 1.5rem; /* Larger font size for the logo */
+    color: #fff; /* White color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow for depth */
+  }
+  
+  .nav-menu {
+    list-style: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .nav-menu li {
+    display: inline-block; /* Display nav items horizontally */
+    margin-right: 20px; /* Add right margin for spacing */
+  }
+  
+  .nav-menu li:last-child {
+    margin-right: 0; /* Remove margin from last item */
+  }
+  
+  .nav-menu li a {
+    font-size: 1.2rem; /* Font size for nav links */
+    color: #fff; /* White color */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .nav-menu li a:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+
+/* main {
+    padding: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-card {
+    width: 300px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-details {
+    padding: 10px;
+}
+
+.product-details h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.product-details p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.details-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.details-btn:hover {
+    background-color: #0056b3;
+}
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Updated styles 
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #007bff;
+} */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.product-img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-info {
+    padding-left: 20px;
+}
+
+.product-name {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.product-price {
+    margin: 5px 0;
+    color: green;
+}
+
+.add-to-cart-btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #0056b3;
+}
